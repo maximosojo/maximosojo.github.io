@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Actualizar Package.json"
+title:  "Actualizar dependencias Package.json"
 date:   2018-02-24 00:13:00 -0400
-categories: git
+categories: npm
 ---
 Cuando tienes un proyecto que depende de paquetes **npm** y deseas actualizar todas las dependencias 
 para obtener las últimas características y mejoras de estos paquetes en tu proyecto. Por lo general 
