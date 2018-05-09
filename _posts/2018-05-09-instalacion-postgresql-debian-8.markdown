@@ -11,9 +11,21 @@ PostgreSQL, es un gestor de base de datos relacional, la primera versión del c�
 ### Pasos de instalación:
 
 **Actualización de paquetes**
+
 **`sudo apt-get update`**
 
 **Instalación**
+
 **`sudo apt-get install postgresql-9.4 postgresql-client-9.4`**
 
 ### Pasos de configuración inicial:
+
+Lo primero que se tiene que hacer es cambiarle la contraseña al usuario ‘postgres’ que se crea luego de haber instalado el paquete:
+
+**`passwd postgres`**
+
+Acceda a la consola de administración de PostgreSQL para cambiar la contraseña del usuario ‘postgres’ con los siguientes comandos:
+
+**`su postgres
+postgres@server:~$ psql postgres
+postgres=# ALTER ROLE postgres PASSWORD 'CONTRASENA_DEL_USUARIO';`**
