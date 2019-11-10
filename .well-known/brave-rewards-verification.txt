@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: maximosojo.github.io
+Token: 21a3679eba3a28503174b578722568712aacf68da3a03b97a7b2c4f1b3b200c2
