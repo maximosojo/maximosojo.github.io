@@ -102,6 +102,7 @@ section.resume-section {
 }
 section.blog-section {
   border-bottom: 1px solid #dee2e6;
+  padding: 3rem 1rem 0rem 3rem!important;
 }
 section.resume-section .resume-item .resume-date {
   min-width: none;
