@@ -5,8 +5,9 @@ date:   2018-02-24 00:13:00 -0400
 categories: npm
 ---
 Cuando tienes un proyecto que depende de paquetes **npm** y deseas actualizar todas las dependencias 
-para obtener las últimas características y mejoras de estos paquetes en tu proyecto. Por lo general 
-actualizas manualmente cada paquete en tu archivo package.json o haces algún otro proceso que es bastante aburrido.
+para obtener las últimas características y mejoras de estos paquetes en tu proyecto.
+
+Por lo general actualizas manualmente cada paquete en tu archivo package.json o haces algún otro proceso que es bastante aburrido.
 
 En este acticulo presentare como actualizarlo de una manera mas sencilla con **npm-check-updates**.
 

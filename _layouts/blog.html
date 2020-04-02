@@ -1,19 +1,23 @@
 ---
 layout: default
 ---
+<section class="blog-section p-lg-5 d-flex flex-column">
+  <div class="my-auto">
+    <h2>Blog</h2>    
+  </div>
+</section>
 <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-	<div class="page">
+	<div class="page row">
 	  {% for post in site.posts %}
-	    <article class="post">
-
-	      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-	      <div class="entry">
-	        {{ post.excerpt }}
-	      </div>
-
-	      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
-	    </article>
+	  	<div class="col-12 col-sm-6 col-md-4">
+		    <article class="post">
+		      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+		      <div class="entry">
+		        {{ post.excerpt }}
+		      </div>
+		      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
+		    </article>
+	  	</div>
 	  {% endfor %}
 	</div>
 </section>
