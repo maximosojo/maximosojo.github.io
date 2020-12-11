@@ -48,8 +48,20 @@ h2 {
 .list-icons {
   font-size: 3rem;
 }
-.list-icons .list-inline-item i:hover {
-  color: #03a885;
+.list-icons .list-icons-item {
+    padding: 2rem;
+    text-align: center;
+}
+.list-icons .list-icons-item:hover {
+  background: #03a885;
+  color: #fff;
+}
+.list-icons .list-icons-item:hover i{
+  color: #fff;
+}
+.list-icons .list-icons-item span {
+    font-size: 1rem;
+    display: block;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
