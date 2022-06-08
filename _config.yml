@@ -14,17 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Máximo Sojo
-email: maxsojo13@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Desarrollador Web, con experiencia en aprovechar los marcos agiles para proporcionar
-  una sinopsis sólida para las descripciones de alto nivel. 
-  Los enfoques iterativos de la estrategia corporativa fomentan el pensamiento colaborativo 
-  para promover la propuesta de valor general.
+  Desde que empecé mi andadura como desarrollador hace casi 8 años, he realizado trabajos para agencias, he sido consultor de startups y he colaborado con gente con talento para crear productos digitales tanto para empresas como para consumidores.
+  Soy una persona tranquila, curiosa por naturaleza y siempre estoy trabajando para mejorar mis habiliades, un conocimiento a la vez.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maximosojo
 github_username:  maximosojo
-facebook_username: maximosojoa
+facebook_username: 
 youtube_username: UCBJiKvFjxK4X_gtEHXajH5Q
 instagram_username: maximosojo
 linkedin_username: maximosojo
